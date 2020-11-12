@@ -315,8 +315,8 @@ class NN_clf:
 
             train_log.append(compute_accuracy(self.Y_data_full,pred_train))
             val_log.append(compute_accuracy(y_val,pred_val))
-            print(compute_accuracy(y_val,pred_val))
-            '''
+            #print(compute_accuracy(y_val,pred_val))
+
             clear_output()
             print("Epoch",i)
             print("Train accuracy:",train_log[-1])
@@ -326,8 +326,7 @@ class NN_clf:
             plt.legend(loc='best')
             plt.grid()
             plt.show()
-            '''
-            #jsj
+
 def sigmoid(Z):
     A = 1 / (1 + np.exp(-Z))
     return A

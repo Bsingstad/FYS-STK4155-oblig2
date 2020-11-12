@@ -4,6 +4,9 @@ import numpy as np
 import tensorflow as tf
 from scipy import optimize
 from sklearn.utils.class_weight import compute_class_weight
+from sklearn.preprocessing import LabelEncoder
+from scipy import optimize
+import metrics
 
 
 def make_class_with_unscored_labels(labels, unscored_labels_df):
@@ -147,3 +150,11 @@ def compute_confusion_matrices(labels, outputs, normalize=False):
                     raise ValueError('Error in computing the confusion matrix.')
 
     return A
+
+
+def get_new_labels(y):
+    y_new = LabelEncoder().fit_transform([''.join(str(l)) for l in y])
+    return y_new
+
+
+
