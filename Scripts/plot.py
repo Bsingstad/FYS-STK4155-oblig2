@@ -46,3 +46,16 @@ def compute_modified_confusion_matrix_nonorm(labels, outputs):
                         A[j, k] += 1.0#/normalization
 
     return A
+
+def plot_classes(classes,y_ohe,plot_name = "myplot"):
+    plt.style.use('seaborn-paper')
+    plt.figure(figsize=(20,16))
+    plt.bar(x=classes,height=y_ohe.sum(axis=0))
+    plt.title("Distribution of Diagnosis", color = "black")
+    plt.tick_params(axis="both", colors = "black")
+    plt.xlabel("Diagnosis", color = "black")
+    plt.ylabel("Count", color = "black")
+    plt.xticks(rotation=90, fontsize=20)
+    plt.yticks(fontsize = 20)
+    plt.savefig(plot_name + ".png")
+    plt.show()
