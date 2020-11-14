@@ -54,11 +54,9 @@ Files containing Python scripts used in the notebooks
 License
 ------------
 
-
-
-
 .. |Apache2.0 license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
    :target: https://opensource.org/licenses/Apache-2.0
+   
 References:
 -----------
 
