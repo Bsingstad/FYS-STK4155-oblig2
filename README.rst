@@ -4,16 +4,6 @@ FYS-STK4155 Project 2
 
 .. image:: /img/Regression and Classification.png
 
-|made-with-python|
-
-.. |made-with-python| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
-   :target: https://www.python.org/
-   
-|made-with-latex|
-
-.. |made-with-latex| image:: https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg
-   :target: https://www.latex-project.org/
-
 Classification and Regression methods
 =================================================================
 In this project methods such as OLS , Ridge, Neural Networks and Logistic regression was used to analyse 
