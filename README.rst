@@ -58,6 +58,6 @@ License
 References:
 -----------
 
-.. [#] WFDB: https://github.com/ECG-featurizer/ECG-featurizer
+.. [#] ECG-Featurizer: https://github.com/ECG-featurizer/ECG-featurizer
 
 
