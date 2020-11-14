@@ -6,7 +6,7 @@ from scipy import optimize
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.preprocessing import LabelEncoder
 from scipy import optimize
-import metrics
+
 
 
 def make_class_with_unscored_labels(labels, unscored_labels_df):
