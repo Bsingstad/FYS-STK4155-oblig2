@@ -2,7 +2,7 @@
 FYS-STK4155 Project 2
 **********************
 
-.. image:: /docs/source/img/ECG-featurizer_banner.png
+.. image:: /img/Regression and Classification.png
 
 |made-with-python|
 
